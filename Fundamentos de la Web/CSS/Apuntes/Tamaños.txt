@@ -1,0 +1,44 @@
+Ancho y Alto
+Para el ancho y el alto utilizaremos width (ancho) y heigth (alto),
+se pueden utilizar los valores en pixeles (px) o porcentajes (%):
+div {
+  width: 80%;
+  height: 200px;
+}
+
+
+Tamaño de la fuente
+Para el tamaño de la fuente se utiliza Font-size
+se utiliza las unidades como pixeles(px), puntos(pt), em o porcentajes(%)
+a {
+  font-size: 120%;
+}
+
+
+Cuando el contenido de un elemento es demasiado grande para su tamaño
+se utiliza Overflow 
+div {
+  overflow: auto;
+}
+
+
+Background
+Para modificar el fondo de un elemento en una sola linea
+se puede cambiar el color de fondo o una imagen de fondo
+p {
+  background: red url("cerezas.png") no-repeat fixed center;
+}
+
+
+Border
+Para agregar bordes a los elementos, se puede espesificar el grozor el tipo y el color:+
+div {
+  border: 1px solid black;
+}
+
+
+Border-radius:
+Para que el borde tenga una apariencia redondeada se usan los valores de px o %:
+div {
+  border-radius: 50%;
+}

@@ -1,0 +1,82 @@
+(El caracter "/" no va incluido es solo para
+dar referencia a lo que va en esa parte del codigo)
+
+
+TITULOS
+Para crear Titulos se utiliza la etiqueta:
+<h1>/aqui va el titulo/</h1>
+esta etiqueta puede ir desde el 1 hasta el 6 siendo 1 el tamaño de letra mas grande.
+
+
+PARRAFOS
+Para crear Parrafos se utiliza la etiqueta:
+<p>/aqui va el parrafo/</p>
+
+
+ENLACES
+Para crear Enlaces o links se utiliza la etiqueta:
+<a href="/aqui va el link/">/aqui va el textto por el cual se remplaza el link/</a>
+
+
+FORMATOS
+Algunos tipos de formatos que se le pueden dar a la etiquetas son:
+<strong>/texto/</strong>
+<em><p>/texto/</p></em>
+
+
+LISTAS
+Para crear listas se utilizan las siguientes etiquetas:
+-para lista desordenada (sin numero):
+<ul>
+   <li>/elemento de lista/</li>
+   <li>/elemento de lista/</li>
+   <li>/elemento de lista/</li>
+</ul>
+
+-para lista ordenada (esta enumerada): (para comenzar de otro numero remplazar la linea 32 con "<ol start="/numero inicial/">")
+<ol>
+    <li>/primer elemento de la lista</li>
+    <li>/segundo elemento de la lista/</li>
+    <li>/tercer elemento de la lista/</li>
+</ol>
+
+-para lista ordenada (alfabeticamente): (Para numeros romanos remplaza la "A" por "I")
+<ol type="A">
+    <li>/A. elemento de la lista</li>
+    <li>/B. elemento de la lista/</li>
+    <li>/C. elemento de la lista/</li>
+</ol>
+
+
+TABLAS
+Para crear tablas se utiliza la etiqueta:
+<table>
+    <tr>
+        <th>/elemento 1 de fila 1/</th>
+        <th>/elemento 2 de fila 1/</th>
+        <th>/elemento 2 de fila 1/</th>
+    </tr>
+    <tr>
+        <td>/elemento 1 de fila 2/</td>
+        <td>/elemento 2 de fila 2/</td>
+        <td>/elemento 3 de fila 2/</td>
+    </tr>
+    <tr>
+        <td>/elemento 1 de fila 3/</td>
+        <td>/elemento 2 de fila 3/</td>
+        <td>/elemento 3 de fila 3/</td>
+    </tr>
+</table>
+
+
+IMAGEN
+Para añadir una imagen a la paguina se utiliza la etiqueta:
+<img src="/direccion de la imagen/" alt="/texto que se muestra en caso de que la imagen no lo haga/">
+
+
+VIDEO
+<video src="/direccion del video/" autoplay loop muted></video>
+
+(autoplay: el video se reproduce automaticamente)
+(loop: el video se repite una y otra vez)
+(muted: el sonido del video esta apagado)

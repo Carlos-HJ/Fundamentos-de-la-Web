@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+}
+
+.texto{
+    text-align: center;
+    height: 70px;
+}
+
+.container{
+    width: 1000px;
+    background-color: aliceblue;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+img{
+    height: 150px;
+    width: 250px;
+}
+
+.rojo {
+    display: flex;
+    justify-content: space-around;
+    height: 35%;
+    background-color: darkred;
+    padding: 20px;
+}
+
+.amarillo {
+    display: flex;
+    justify-content: space-around;
+    height: 35%;
+    background-color: khaki;
+    padding: 20px;
+}
+
+.gris {
+    display: flex;
+    justify-content: space-around;
+    height: 35%;
+    background-color: lightslategray;
+    padding: 20px;
+}
+
+.celeste {
+    text-align: center;
+    font-size: 20px;
+    background-color: paleturquoise;
+    padding: 20px;
+    
+}

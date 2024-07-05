@@ -1,0 +1,39 @@
+.container{
+    width: 1500px;
+    background-color: #eaeaea;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.titulo{
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.primer-div{
+    background-color: lightseagreen;
+    text-align: center;
+    color: white;
+    height: 150px;
+    width: 400px;
+}
+
+.segundo-div{
+    background-color: magenta;
+    text-align: center;
+    color: white;
+    height: 150px;
+    width: 400px;
+}
+
+.tercer-div{
+    background-color: midnightblue;
+    text-align: center;
+    color: white;
+    height: 150px;
+    width: 400px;
+}

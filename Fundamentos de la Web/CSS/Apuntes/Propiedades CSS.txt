@@ -1,0 +1,34 @@
+Para mover el texto al centro a la izquierda o derecha se utiliza:
+p {
+    text-align: left; 
+
+   text-align: center; 
+
+   text-align: right; 
+}
+
+
+Para decorar el texto se utiliza:
+a {
+    text-decoration: underline;
+
+    font-style: italic;
+
+    text-decoration: line-through;
+
+    text-decoration: none;
+}
+
+
+Para hacer el texto mas gruezo o delgado se utiliza
+(se puede utilizar palabras como "normal" o "bold", o tambien usar numeros):
+h1 {
+  font-weight: bold;
+}
+
+
+Para cambiar la tipografia se utiliza:
+(ejemplo: serif, sans-serif,  monospace y cursive )
+body {
+  font-family: sans-serif;
+}

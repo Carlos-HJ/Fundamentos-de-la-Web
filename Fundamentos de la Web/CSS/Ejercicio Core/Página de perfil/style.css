@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*SECCIONES*/
+main{
+    border: 2px solid green;
+    height: 750px;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+}
+
+section{
+    border: 2px solid magenta;
+    height: 750px;
+    width: 300px;
+}
+
+.izquierda{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.derecha{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.targeta-usuario, .educacion, .solicitudes, .contacto{
+    border: 2px solid orange;
+    border-radius: 20px;
+    box-shadow: 3px 5px 5px gray;
+}
+
+.targeta-usuario{
+    flex: 2;
+}
+
+.educacion{
+    flex: 1;
+}
+
+.solicitudes{
+    flex: 3;
+}
+
+.contacto{
+    flex: 9;
+}
+
+
+/*BARRA DE NAVEGACION*/
+.navbar {
+    background-color: rgb(48,48,48);
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 34px;
+    padding-left: 20px;
+}
+
+.nav-link {
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.nav-link li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link li a:hover {
+    color: black;
+}
+
+#sesion{
+    border: none;
+    background-color: darkred;
+    border-radius: 10px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#sesion a:hover {
+    color: black;
+}
+
+/*TAREGTA DE USUARIO*/
+.targeta-usuario {
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.barra {
+    height: 150px;
+    background-color: darkred;
+    margin-bottom: 0px;
+    flex: 0 0 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#imgperfil{
+    border-radius: 50%;
+    width: 150px;
+    margin-top: -80px;
+    margin-left: 50px;
+    border: 5px solid white;
+}
+
+.texto, h1{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    width: 95%;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 95%;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+#edit{
+    border: none;
+    background-color: darkred;
+    border-radius: 50px;
+    color: white;
+    margin: 30px;
+    padding: 15px 25px;
+    box-shadow: 10px 10px 20px gray;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#edit a:hover {
+    color: black;
+}
+
+/*SOLICITUDES*/
+
+#solicitud1{
+    border-radius: 50%;
+    width: 75px;
+    height: 50px;
+}
+
+#solicitud2{
+    border-radius: 50%;
+    width: 75px;
+}
+
+#aceptar{
+    flex-direction: column;
+}
+
+/*CONEXIONES*/
+
+.conexionfto{
+    border-radius: 50%;
+    width: 75px;
+    height: 50px;
+}

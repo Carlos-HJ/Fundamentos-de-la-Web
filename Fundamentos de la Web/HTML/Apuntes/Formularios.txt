@@ -1,0 +1,58 @@
+FORMULARIO
+
+Los "label" son para decir lo que hay que escribir en cada casilla
+o para decir lo que hay que poner.
+
+Los "div" o "br" son para poder separar o dividir las secciones.
+
+
+TEXTO
+Para crear una entrada de texto se utilizan las etiquetas:
+<label for="nombre">Nombre: </label>
+<input type="text" id="nombre" name="nombre" />
+
+NUMERO 
+Para crear una entrada numeria se utilizan las etiquetas:
+<label for="edad">Edad: </label>
+<input type="number" id="edad" name="edad" />
+
+CONTRASEÑA
+Para crear una contraseña se utilizan las etiqueta:
+<label for="clave">Contraseña: </label>
+<input type="password" id="clave" name="clave" />
+
+FECHA (no es compatible con todos los navegadores)
+Para crear un cuadro el cual permita introducir una fecha se utiliza:
+<label for="fecha_nacimiento">Fecha de nacimiento: </label>
+<input type="date" id="fecha_nacimiento" name="fecha_nacimiento" />
+
+COLOR
+Para seleccionar un color se utilizan las etiquetas:
+<label for="color_texto">Color del texto: </label>
+<input type="color" id="color_texto" name="color_texto" />
+
+SELECCIONAR UNA OPCION
+Para crear un "Boton de Radio" se utilizan las etiquetas:
+<label>Estilo de fuente:</label>
+<input type="radio" id="negrita" name="estilo_fuente" value="bold" />
+<label for="negrita"><strong>Negrita</strong></label>
+<input type="radio" id="normal" name="estilo_fuente" value="normal" />
+<label for="normal">Normal</label><br /><br />
+
+CASILLA DE VERIFICACION
+<input type="checkbox" id="acepto" name="acepto" />
+<label for="acepto">Acepto los términos y condiciones</label>
+
+AREA DE TEXTO
+<label for="comentario">Comentario: </label>
+<textarea id="comentario" name="comentario" rows="4" cols="30"></textarea>
+
+SELECCIONAR UNA OPCION DESPLEGABLE (Drop-down)
+<label for="bandas">Bandas: </label>
+<select id="bandas" name="bandas">
+    <option value="almendras">Imagine Dragons</option>
+    <option value="queso">The Weeknd</option>
+    <option value="hummus">Twenty One Pilots</option></select>
+
+BOTON 
+<input type="submit" value="Registrarse" />

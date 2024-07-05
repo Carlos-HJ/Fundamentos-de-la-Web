@@ -1,0 +1,19 @@
+h1{
+    background-color: blue;
+    color: antiquewhite;
+}
+
+.Grupo{
+    background-color: aqua;
+    color: black;
+}
+
+#id1{
+    background-color: aliceblue;
+    color: blue;
+}
+
+h1.Grupo{
+    background-color: black;
+    color: aqua;
+}
