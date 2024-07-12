@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    font-size: 25PX;
+}
+
+main {
+    display: flex;
+    margin: 30px;
+}
+
+/*PROFILE*/
+aside {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid black
+}
+
+.profile {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    width: 70%;
+    border-radius: 10px;
+    height: 150px;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+/*FEED*/
+article {
+    width: 85%
+}
+
+#feed{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px
+}
+
+.feed {
+    margin-right: 10px;
+}
+.feed-info {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+
+}
+
+.likes1, .likes2, .likes3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%px;
+    padding: 0 20px;
+}
+
+#botlike {
+    background-color: gold;
+    border: none;
+    padding: 5px 5px 5px 15px;
+    border-radius: 5px;
+    width: 33px;
+    cursor: pointer;
+    margin-left: 20px;
+}

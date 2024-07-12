@@ -1,0 +1,158 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+/*SECCIONES*/
+main{
+    height: 750px;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+}
+
+.izquierda{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.derecha{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mascotas, .TI{
+    border: solid 2px;
+}
+
+/*BARRA DE NAVEGACION*/
+.navbar {
+    background-color: lightsteelblue;
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: 10px;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+    font-size: 34px;
+    padding-left: 20px;
+}
+
+.nav-link {
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+    font-size: 20px;
+    align-items: center;
+}
+
+#sesion{
+    border: solid 2px;
+    border-color: black;
+    background-color: dodgerblue;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 15px;
+    font-size: 15px;
+    box-shadow: 3px 3px 10px gray;
+    cursor: pointer;
+}
+#sesion a:hover {
+    color: black;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 30px;
+}
+
+input{
+    width: 1000px;
+    border: solid 1px;
+    padding-left: 5px;
+}
+
+/*MASCOTAS*/
+.mascotas {
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 95%;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 95%;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.sustantivo{
+    font-family: "Latin Modern Roman";
+    font-style: oblique;
+}
+
+.likes1, .likes{
+    border: solid 2px;
+    background-color: bisque;
+    border-radius: 10px;
+    color: black;
+    margin: 30px;
+    padding: 6px 15px;
+    box-shadow: 3px 3px 10px gray;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/*TI*/
+#botonTI{
+    display: flex;
+    background-color: green;
+    color: white;
+    margin: 30px;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 300px;
+    justify-content: center;
+    border: solid 2px;
+    border-color: black;
+}
+
+#textoTI{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 95%;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#botonTI a:hover{
+    color: black;
+}

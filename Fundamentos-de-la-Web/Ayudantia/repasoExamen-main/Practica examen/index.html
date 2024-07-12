@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>My Cinema</title>
+</head>
+
+<body>
+    <!-- Encabezado, trae información más básica y que se repite en toda la página -->
+    <header>
+        <div class="logotipo">
+            <img src="./img/logo.png" alt="imagen logo" class="logo">
+            <h1 class="tipo">Cinema+</h1>
+        </div>
+        <form class="busqueda">
+            <input type="text" class="pelicula" placeholder="Buscar película">
+            <button type="submit" class="buscar">Buscar</button>
+        </form>
+        <button class="ingresar">Ingresar</button>
+    </header>
+    <!-- Barra de navegación puede cambiar dependiendo de donde se encuentre el usuario -->
+
+    <h1 id="titular_principal">Película de la semana</h1>
+    <!-- Contenido principal de la página -->
+    <main>
+        <div class="pelicula">
+            <img src="./img/shrek.jpg" alt="poster" class="posterPelicula">
+            <div class="likes">
+                <span class="like">0</span>
+                <img src="./img/heart.png" alt="corazon like" onclick="sumarLike(this)">
+            </div>
+        </div>
+
+        <div class="pelicula">
+            <img src="./img/cars.jpg" alt="poster" class="posterPelicula">
+            <div class="likes">
+                <span class="like">0</span>
+                <img src="./img/heart.png" alt="corazon like" onclick="sumarLike(this)">
+            </div>
+        </div>
+    </main>
+
+    <div class="cookies">
+        <img src="./img/cookie.png" alt="Icono galleta">
+        <p>¿Acepta el uso de sus datos para mostrar publicidad en la página?</p>
+        <button class="aceptar" onclick="eliminarCookies()">Acepto</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

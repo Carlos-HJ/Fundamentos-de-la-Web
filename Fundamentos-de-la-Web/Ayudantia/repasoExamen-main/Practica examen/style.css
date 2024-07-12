@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(21, 21, 21);
+    color: white;
+}
+
+/* Inicia el header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ingresar{
+    background-color: rgb(2, 109, 209);
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.busqueda{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.buscar, .pelicula{
+    padding: 10px 25px;
+    border: none;
+}
+
+.buscar{
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+.pelicula{
+    width: 100%;
+}
+
+/* Inicia la barra de navegación */
+
+
+
+/* Titular */
+#titular_principal{
+    margin: 50px 10%;
+    text-align: center;
+    font-size: 75px;
+}
+
+
+
+
+
+/* Cookies */
+
+.cookies img{
+    width: 70px;
+}
+
+.cookies{
+    width: 80%;
+    height: 100px;
+    background-color: rgb(203, 177, 7);
+    color: black;
+    font-size: larger;
+    border: 5px solid rgb(2, 2, 55);
+    position: fixed;
+    left: 10%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aceptar{
+    padding: 10px 30px;
+    background-color: rgb(191, 78, 2);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+/*Repaso clases*/
+
+.posterPelicula{
+    height: 600px;
+}
+
+.likes > img{
+    height: 40px;
+}
+
+main, .likes{
+    display: flex;
+}
+
+.likes{
+    align-items: center;
+}
